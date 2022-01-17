@@ -1,39 +1,17 @@
-### Termos e acordos
+<h1 align=center>
+  All For One
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/>
+</a>
+</h1>
+  
+<br/>
+<br/>
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe
+# ℹ️ Sobre o projeto
+Este foi um projeto do módulo de Back-End da Trybe, onde foi colocado em prática através de desafios conhecimentos da linguagem SQL e do Sistema de Gerenciamento de Banco de Dados(SGBD) MySQL. A seguir há uma lista das habilidades praticadas neste projeto:
 
-# Boas vindas ao repositório do projeto All For One
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Sumário
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Instruções para restaurar o banco de dados Northwind](#instruções-para-restaurar-o-banco-de-dados-northwind)
-  - [Instruções para testar suas queries](#instruções-para-testar-suas-queries)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Lista de requisitos](#lista-de-requisitos)
-    - [Desafios Iniciais](#desafios-iniciais)
-    - [Desafios sobre filtragem de dados](#desafios-sobre-filtragem-de-dados)
-    - [Desafios de manipulação de tabelas](#desafios-de-manipulação-de-tabelas)
-- [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
-
----
-
-# Habilidades
-Nesse projeto, você será capaz de:
+## Habilidades
 
 - Entender o que são bancos de dados
 - Entender como a linguagem de consulta estruturada (SQL) é usada
@@ -61,120 +39,16 @@ Nesse projeto, você será capaz de:
 
 ---
 
-# Entregáveis
+## 🔧 Pré-requisitos
 
-## O que deverá ser desenvolvido
-
-Hoje você fará um projeto com o codinome *All For One* em que praticará todos os conceitos de SQL já ensinados até aqui. Porém, você vai usar um banco de dados totalmente diferente, então dê tchau para o `sakila` e dê boas vindas ao `Northwind`, que será usado neste projeto. As instruções de como restaurar o banco podem ser lidas a seguir.
-
----
-
-## Desenvolvimento
-
-Temos, nesse projeto, uma série de desafios com diferentes níveis de complexidade que devem ser resolvidos cada um em seu arquivo próprio.
-
-1. Leia a pergunta e crie na raiz do projeto um arquivo chamado desafioN.sql, em que N é o número do desafio;
-
-2. O arquivo deve conter apenas o código SQL do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries e também de colocar o nome do **banco_de_dados.tabela_por_completo**, como no exemplo a seguir:
-
-```sql
-SELECT * FROM northwind.orders;
-```
-
-3. Faça isso até finalizar todos os desafios.
-
-4. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter os arquivos `desafio1.sql`, `desafio2.sql` e assim por diante até o `desafio27.sql`, que conterão seu código `SQL` de cada desafio, respectivamente.
-
-5. **Não é necessário colocar** `USE northwind;` ou `SET SQL_SAFE_UPDATES = 0;` no início dos seus arquivos.
-
-### ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+Para poder realizar os desafios deste projeto é necessário ter o MySQL instalado no computador.
+- Tutorial de como [instalar MySQL](https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela)
 
 ---
 
-## Data de entrega
+## 🗄 Banco de Dados
 
-- Projeto individual.
-
-- Será 1 dia de projeto.
-
-- Data de entrega para avaliação final do projeto: `29/07/2021 - 14:00h`.
-
-# Instruções para entregar seu projeto
-
-## Antes de começar a desenvolver
-
-1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-010-a-mysql-all-for-one.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-010-a-mysql-all-for-one`
-
-2. Instale as dependências [**Caso existam**]
-  * `npm install` [**exemplo**]
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b seunome-mysql-all-for-one`
-
-4. Para cada exercício você deve criar um novo arquivo sql seguindo a seguinte estrutura:
-  * desafio1.sql, desafio2.sql...desafioN.sql
-
-5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer o arquivo que você alterou como desafio1.sql)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando solução para desafio 1)
-        * `git status` (deve aparecer listado o arquivo _desafio1.sql_ em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto MySQL All For One'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-6. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin seunome-mysql-all-for-one`
-
-7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-010-a-mysql-all-for-one/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-010-a-mysql-all-for-one/pulls) e confira que o seu _Pull Request_ está criado
-
----
-
-## Durante o desenvolvimento
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
-
-## ⚠️ É importante que seus arquivos tenham exatamente estes nomes e esteja na raiz do projeto! ⚠️
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-# Como desenvolver
-
-## Instruções para restaurar o banco de dados `Northwind`
+### Instruções para restaurar o banco de dados `Northwind`
 
 1. Faça o download do arquivo de backup [aqui](northwind.sql) clicando em "Raw", depois clicando com botão direito e selecionando "Salvar como" para salvar o arquivo em seu computador.
 2. Abra o arquivo com algum editor de texto, e selecione todo o conteúdo do arquivo usando `CTRL-A`.
@@ -197,33 +71,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
 
 ---
 
-## Instruções para testar suas queries
-
-Para executar localmente os testes, é preciso escrever o seguinte no seu terminal:
-```sh
-MYSQL_USER=<SEU_NOME_DE_PESSOA_USUARIA> MYSQL_PASSWORD=<SUA SENHA> HOSTNAME=<NOME_DO_HOST> npm test
-```
-
-Ou seja, suponha que para poder acessar a base de dados feita neste projeto você tenha `root` como seu nome de pessoa usuária, `password` como senha e `localhost` como host. Logo, você executaria:
-```sh
-MYSQL_USER=root MYSQL_PASSWORD=password HOSTNAME=localhost npm test
-```
-
-Usando o exemplo anterior de base, suponha que você não tenha setado uma senha para `root`. Neste caso, você executaria:
-```sh
-MYSQL_USER=root MYSQL_PASSWORD= HOSTNAME=localhost npm test
-  ```
----
-
-:warning: **Não é necessário colocar** `USE northwind;` ou `SET SQL_SAFE_UPDATES = 0;` no início dos seus arquivos :warning:
-
----
-
-# Requisitos do projeto
-
-Monte queries para encontrar as informações esperadas pelos desafios:
-
-## Lista de Requisitos
+# 📝 Requisitos do projeto
 
 ## Desafios Iniciais
 
@@ -286,37 +134,5 @@ Monte queries para encontrar as informações esperadas pelos desafios:
 #### 26 - Delete todos os dados em que a `unit_price` da tabela `order_details` seja maior que 10.0000.
 
 #### 27 - Delete todos os dados da tabela `order_details`.
-
----
-
-## Depois de terminar o desenvolvimento
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-010-a`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-# Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-\#VQV 🚀
-
----
-
-# Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/39qMu3s)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
 ---
