@@ -9,7 +9,7 @@
 <br/>
 
 ## ℹ️ Sobre o projeto
-Este foi um projeto do módulo de Back-End da Trybe, onde foi colocado em prática através de desafios conhecimentos da linguagem SQL e do Sistema de Gerenciamento de Banco de Dados(SGBD) MySQL. A seguir há uma lista das habilidades praticadas neste projeto:
+Este foi um projeto do módulo de Back-End da [Trybe](https://betrybe.com), onde foi colocado em prática através de desafios conhecimentos da linguagem SQL e do Sistema de Gerenciamento de Banco de Dados [MySQL](https://www.mysql.com/). A seguir há uma lista das habilidades praticadas neste projeto:
 
 <br />
 
