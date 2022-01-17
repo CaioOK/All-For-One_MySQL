@@ -1,6 +1,6 @@
 <h1 align=center>
   All For One
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/>
 </a>
 </h1>
@@ -39,7 +39,12 @@ Este foi um projeto do módulo de Back-End da Trybe, onde foi colocado em práti
 
 ---
 
-## 🔧 Pré-requisitos
+## 🔧 Ferramentas
+<p>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/>
+  </a>
+</p>
 
 Para poder realizar os desafios deste projeto é necessário ter o MySQL instalado no computador.
 - Tutorial de como [instalar MySQL](https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela)
