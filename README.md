@@ -8,10 +8,16 @@
 <br/>
 <br/>
 
-# ℹ️ Sobre o projeto
+## ℹ️ Sobre o projeto
 Este foi um projeto do módulo de Back-End da [Trybe](https://betrybe.com), onde foi colocado em prática através de desafios conhecimentos da linguagem SQL e do Sistema de Gerenciamento de Banco de Dados [MySQL](https://www.mysql.com/). A seguir há uma lista das habilidades praticadas neste projeto:
 
-## Habilidades
+<br />
+
+---
+
+<br />
+
+## 🏋️‍♂️ Habilidades
 
 - Entender o que são bancos de dados
 - Entender como a linguagem de consulta estruturada (SQL) é usada
